@@ -220,12 +220,14 @@ class DisplayCount extends React.Component {
 
     - A logical representation of the
     actual DOM in the form of React Elements. 
+
     - A programming concept where a virtual representation of the UI is kept in the memory. 
-    It is an object that has React Elements to represent the UI. 
+
+    - It is an object that has React Elements to represent the UI. 
 
 ### Ques 14: Reconciliation vs Rendering?
 
-    - Reconciliation: The process of computing the diff between the 2 VDOMs. 
+    - Reconciliation: The process of computing the difference between the 2 Virtual DOM's. 
 
     - Rendering: The actual updation of the information in the rendering environment.
 

@@ -1,3 +1,6 @@
+// import Counter2 from "./Counter"; // Default Import
+import { Counter2 } from "./Counter"; // Named Import
+
 // Example for Ques 2, Ques 3, Ques 6. 
 function App(){
     return (
@@ -20,6 +23,8 @@ function App(){
             <CounterNew />   
 
             <Greeting name="Amith" />
+
+            <Counter2 />
         </React.Fragment>
     );
 };
